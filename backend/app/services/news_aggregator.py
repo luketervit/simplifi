@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # NewsAPI Key
-NEWSAPI_KEY = os.getenv("NEWSAPI_KEY", "f6ffd53a24f04f11ac0befe694d63471")
+NEWSAPI_KEY = os.getenv("NEWSAPI_KEY", "3a24f04f11ac0bef6ffd5fe694d63471")
 
 # Mock news data
 MOCK_NEWS_SOURCES = ["CoinDesk", "CryptoSlate", "Cointelegraph", "The Block", "Decrypt"]
